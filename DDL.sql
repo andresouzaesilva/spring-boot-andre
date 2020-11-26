@@ -32,5 +32,10 @@ create table uau_usuario_autorizacao (
 
 /*Populando com 1 registro para cada tabela*/
 insert into usr_usuario(usr_nome, usr_senha) values("admin", "$2a$10$i3.Z8Yv1Fwl0I5SNjdCGkOTRGQjGvHjh/gMZhdc3e7LIovAklqM6C");
+insert into usr_usuario(usr_nome, usr_senha) values("andre", "$2a$10$i3.Z8Yv1Fwl0I5SNjdCGkOTRGQjGvHjh/gMZhdc3e7LIovAklqM6C");
+insert into usr_usuario(usr_nome, usr_senha) values("henrique", "$2a$10$i3.Z8Yv1Fwl0I5SNjdCGkOTRGQjGvHjh/gMZhdc3e7LIovAklqM6C");
 insert into aut_autorizacao(aut_nome) values("ROLE_ADMIN");
+insert into aut_autorizacao(aut_nome) values("ROLE_USUARIO");
 insert into uau_usuario_autorizacao values(1, 1);
+insert into uau_usuario_autorizacao values(2, 2);
+insert into uau_usuario_autorizacao values(3, 2);
