@@ -4,4 +4,4 @@
 
 Projeto utilizado como aprendizado sobre spring-boot para a disciplina LABV Fatec SJC.
 ## Utilização
-- Para rodar no gitpod utilize: mvn spring-boot:run (Necessário ter o Maven instalado e configurado na máquina);  
+- Para rodar no gitpod utilize: mvn spring-boot:run
